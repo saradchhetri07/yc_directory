@@ -27,9 +27,7 @@ const Navbar = async () => {
                   await signOut();
                 }}
               >
-                <button type="submit">
-                  <button>SignOut</button>
-                </button>
+                <button type="submit">SignOut</button>
                 <Link href={`/user/${session?.user?.id}`}>
                   <span>{session?.user?.name}</span>
                 </Link>
