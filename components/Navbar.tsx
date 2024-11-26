@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { auth, signOut, signIn } from "../auth";
+import { auth, signOut, signIn } from "../app/auth";
 import Form from "next/form";
 import React from "react";
 
